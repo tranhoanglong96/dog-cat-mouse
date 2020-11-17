@@ -1,3 +1,3 @@
-const Cat = () => {
-
+const Cat = (name) => {
+    this.name = name;
 };
