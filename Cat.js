@@ -1,4 +1,4 @@
-const Cat = () => {
+function Cat () {
     this.stomach = [];
 };
 
