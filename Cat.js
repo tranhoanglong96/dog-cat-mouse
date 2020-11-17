@@ -1,5 +1,5 @@
-const Cat = (name) => {
-    this.name = name;
+const Cat = () => {
+    this.stomach = [];
 };
 
 module.exports = Cat;
