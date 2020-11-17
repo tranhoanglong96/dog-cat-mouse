@@ -1,4 +1,4 @@
-const Mouse = (name) => {
+function Mouse (name) {
     this.name = name;
     this.die = false;
 }
@@ -7,4 +7,5 @@ const Mouse = (name) => {
 Mouse.prototype.die = () => {
     this.die = true;
 }
+
 module.exports = Mouse;

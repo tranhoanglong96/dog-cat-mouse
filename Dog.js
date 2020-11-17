@@ -1,12 +1,11 @@
 const chalk = require("chalk");
-
-const Dog  = (name) => {
+function Dog (name) {
     this.stomach = [];
     this.name = name;
 };
 
-Dog.prototype.eat = (cat) => {
-    this.stomach.push(cat);
+Dog.prototype.eat = (animal) => {
+    this.stomach.push(animal);
 }
 
 Dog.prototype.run = () => {
